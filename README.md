@@ -4,7 +4,21 @@
 > A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
 > Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
 
-# UI Screenshots
+
+<table>
+    </td>
+    <td align="center">
+      <a href="https://movie-review-sentiment-prediction.streamlit.app/" target="_blank">
+        <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" width="220" />
+      </a>
+      <br>
+      <sub>Try the Live Demo</sub>
+    </td>
+  </tr>
+</table>
+
+
+## UI Screenshots (Initial)
 
 <table>
   <tr>
@@ -19,6 +33,11 @@
   </tr>
 </table>
 
+## Current UI
+
+https://github.com/user-attachments/assets/5f5c380e-6c21-4304-af66-6f745cb5a48b
+
+*The initial UI was created by me, and later on it was enhanced with the help of AI.*
 
 ## One-line summary
 
@@ -66,15 +85,23 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 
 ## Colab notebook
 
-<a href="https://colab.research.google.com/drive/1udu0z2zrXZJm2SfaJrWO-jblWLri5kJx?usp=sharing" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="200" />
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1udu0z2zrXZJm2SfaJrWO-jblWLri5kJx?usp=sharing" target="_blank">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="220" />
+      </a>
+      <br>
+      <sub>Run in Google Colab</sub>
+    </td>
+  </tr>
+</table>
 
 
 
 The notebook demonstrates everything in a reproducible order:
 
-1.  Load dataset (IMDb or CSV)
+1.  Load the dataset
     
 2.  Basic cleaning (remove HTML, non-letters, collapse spaces, lowercasing)
     
