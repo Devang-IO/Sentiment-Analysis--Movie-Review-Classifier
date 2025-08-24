@@ -4,18 +4,17 @@
 > A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
 > Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
 
-----------
 # UI Screenshots
 
 <table>
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/1271485c-039e-4767-94e7-651732ef7c30" alt="UI Screenshot 1" width="640" />
-      <p><em>App input screen</em></p>
+      <p><em>Positive Prediction</em></p>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/3e6ac725-31fc-4161-b9cb-d9bba03782f9" alt="UI Screenshot 2" width="640" />
-      <p><em>Prediction result screen</em></p>
+      <p><em>Negative Prediction</em></p>
     </td>
   </tr>
 </table>
@@ -25,7 +24,6 @@
 
 Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab and wrapped in a Streamlit app for quick demos and testing.
 
-----------
 
 ## Quick highlights
 
@@ -38,7 +36,6 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 -   **How to demo**: Run locally with Streamlit or open the Colab notebook and run cells
     
 
-----------
 
 ## Features
 
@@ -51,7 +48,6 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 -   Minimal, beginner-friendly codebase that’s easy to extend
     
 
-----------
 
 ## Tech stack
 
@@ -67,7 +63,6 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
     
 -   Optional: pyngrok / cloudflared for temporary public demo tunnels
     
-----------
 
 ## Colab notebook
 
@@ -93,7 +88,6 @@ The notebook demonstrates everything in a reproducible order:
     
 7.  (Optional) demo Streamlit from Colab using pyngrok/cloudflared
 
-----------
 
 ## How to run
 
@@ -123,7 +117,6 @@ The notebook demonstrates everything in a reproducible order:
 4.  Open `http://localhost:8501` in your browser.
      
 
-----------
 
 ## Limitations & why the model sometimes misclassifies
 
@@ -134,7 +127,7 @@ The notebook demonstrates everything in a reproducible order:
 -   For better handling of subtle language, consider fine-tuning or using pretrained transformers (BERT variants).
     
 
-----------
+
 
 ## License
 
