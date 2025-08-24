@@ -5,6 +5,21 @@
 > Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
 
 ----------
+# UI Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1271485c-039e-4767-94e7-651732ef7c30" alt="UI Screenshot 1" width="640" />
+      <p><em>App input screen</em></p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3e6ac725-31fc-4161-b9cb-d9bba03782f9" alt="UI Screenshot 2" width="640" />
+      <p><em>Prediction result screen</em></p>
+    </td>
+  </tr>
+</table>
+
 
 ## One-line summary
 
