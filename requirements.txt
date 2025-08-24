@@ -1,0 +1,20 @@
+# Minimal requirements for the Sentiment Analysis project
+# Core dependencies (required)
+streamlit>=1.20
+scikit-learn>=1.2
+pandas>=1.5
+numpy>=1.24
+
+# Optional: to expose Streamlit when running from Colab (choose one)
+pyngrok>=5.2.1        # ngrok tunneling (common, easy)
+pycloudflared>=0.1.0  # alternative Cloudflare tunnel (optional)
+
+# Optional: if you later add transformer-based models
+transformers>=4.30.0
+torch>=2.0.0          # required for many HF models (install only if using transformers)
+
+# Utilities (optional)
+matplotlib>=3.6
+joblib>=1.2
+
+# NOTE: comment out/remove optional lines if you don't need them.
