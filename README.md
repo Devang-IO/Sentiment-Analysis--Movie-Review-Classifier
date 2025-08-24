@@ -1,16 +1,58 @@
 
 # Sentiment Analysis  Movie Review Classifier
 
-> A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
-> Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
+ A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
+ Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
 
-----------
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://movie-review-sentiment-prediction.streamlit.app/" target="_blank">
+        <img src="https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit" alt="Streamlit App" width="220" />
+      </a>
+      <br>
+      <sub>View Demo on Streamlit</sub>
+    </td>
+    <td align="center">
+      <a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews" target="_blank">
+        <img src="https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle" alt="Kaggle Dataset" width="220" />
+      </a>
+      <br>
+      <sub>The Dataset Used</sub>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+## UI Screenshots (Initial)
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1271485c-039e-4767-94e7-651732ef7c30" alt="UI Screenshot 1" width="640" />
+      <p><em>Positive Prediction</em></p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3e6ac725-31fc-4161-b9cb-d9bba03782f9" alt="UI Screenshot 2" width="640" />
+      <p><em>Negative Prediction</em></p>
+    </td>
+  </tr>
+</table>
+
+## Current UI
+
+https://github.com/user-attachments/assets/5f5c380e-6c21-4304-af66-6f745cb5a48b
+
+*The initial UI was created by me, and later on it was enhanced with the help of AI.*
 
 ## One-line summary
 
 Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab and wrapped in a Streamlit app for quick demos and testing.
 
-----------
 
 ## Quick highlights
 
@@ -23,7 +65,6 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 -   **How to demo**: Run locally with Streamlit or open the Colab notebook and run cells
     
 
-----------
 
 ## Features
 
@@ -36,7 +77,6 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 -   Minimal, beginner-friendly codebase that’s easy to extend
     
 
-----------
 
 ## Tech stack
 
@@ -52,19 +92,27 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
     
 -   Optional: pyngrok / cloudflared for temporary public demo tunnels
     
-----------
 
 ## Colab notebook
 
-<a href="https://colab.research.google.com/drive/1udu0z2zrXZJm2SfaJrWO-jblWLri5kJx?usp=sharing" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="200" />
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1udu0z2zrXZJm2SfaJrWO-jblWLri5kJx?usp=sharing" target="_blank">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="220" />
+      </a>
+      <br>
+      <sub>Run in Google Colab</sub>
+    </td>
+  </tr>
+</table>
+
 
 
 
 The notebook demonstrates everything in a reproducible order:
 
-1.  Load dataset (IMDb or CSV)
+1.  Load the dataset
     
 2.  Basic cleaning (remove HTML, non-letters, collapse spaces, lowercasing)
     
@@ -78,7 +126,6 @@ The notebook demonstrates everything in a reproducible order:
     
 7.  (Optional) demo Streamlit from Colab using pyngrok/cloudflared
 
-----------
 
 ## How to run
 
@@ -97,18 +144,21 @@ The notebook demonstrates everything in a reproducible order:
     
 2.  Create a virtual environment and install dependencies:
     
-
-```python -m venv venv source venv/bin/activate # or venv\Scripts\activate on Windows pip install -r requirements.txt```
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
 
 3.  Run:
     
-
-`streamlit run app.py` 
+```bash
+streamlit run app.py
+```
 
 4.  Open `http://localhost:8501` in your browser.
      
 
-----------
 
 ## Limitations & why the model sometimes misclassifies
 
@@ -119,14 +169,12 @@ The notebook demonstrates everything in a reproducible order:
 -   For better handling of subtle language, consider fine-tuning or using pretrained transformers (BERT variants).
     
 
-----------
-
 ## License
 
-Add a license as you wish (MIT recommended for small personal projects). Example `LICENSE` file content:
+This project is released under the [MIT License](./LICENSE).
 
-`MIT License
-Copyright (c) YEAR YOUR_NAME ...` 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 
 ----------
 
