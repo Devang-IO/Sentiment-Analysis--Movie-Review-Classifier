@@ -131,10 +131,12 @@ The notebook demonstrates everything in a reproducible order:
 
 ## License
 
-Add a license as you wish (MIT recommended for small personal projects). Example `LICENSE` file content:
+## License
 
-`MIT License
-Copyright (c) YEAR YOUR_NAME ...` 
+This project is released under the [MIT License](./LICENSE).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 
 ----------
 
