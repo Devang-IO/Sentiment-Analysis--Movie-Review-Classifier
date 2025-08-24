@@ -1,21 +1,31 @@
 
 # Sentiment Analysis  Movie Review Classifier
 
-> A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
-> Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
+ A compact, beginner-friendly machine learning project that classifies movie reviews as **Positive** or **Negative**.  
+ Trained end-to-end in **Google Colab**, packaged into pickled artifacts, and presented through a simple **Streamlit** UI.
 
 
 <table>
-    </td>
+  <tr>
     <td align="center">
       <a href="https://movie-review-sentiment-prediction.streamlit.app/" target="_blank">
-        <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" width="220" />
+        <img src="https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit" alt="Streamlit App" width="220" />
       </a>
       <br>
-      <sub>Try the Live Demo</sub>
+      <sub>View Demo on Streamlit</sub>
+    </td>
+    <td align="center">
+      <a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews" target="_blank">
+        <img src="https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle" alt="Kaggle Dataset" width="220" />
+      </a>
+      <br>
+      <sub>The Dataset Used</sub>
     </td>
   </tr>
 </table>
+
+
+
 
 
 ## UI Screenshots (Initial)
@@ -99,6 +109,7 @@ Lightweight sentiment classifier (TF-IDF + Logistic Regression) built in Colab a
 
 
 
+
 The notebook demonstrates everything in a reproducible order:
 
 1.  Load the dataset
@@ -133,13 +144,17 @@ The notebook demonstrates everything in a reproducible order:
     
 2.  Create a virtual environment and install dependencies:
     
-
-```python -m venv venv source venv/bin/activate # or venv\Scripts\activate on Windows pip install -r requirements.txt```
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
 
 3.  Run:
     
-
-`streamlit run app.py` 
+```bash
+streamlit run app.py
+```
 
 4.  Open `http://localhost:8501` in your browser.
      
@@ -153,10 +168,6 @@ The notebook demonstrates everything in a reproducible order:
     
 -   For better handling of subtle language, consider fine-tuning or using pretrained transformers (BERT variants).
     
-
-
-
-## License
 
 ## License
 
