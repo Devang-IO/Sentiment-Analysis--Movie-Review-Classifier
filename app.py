@@ -12,7 +12,7 @@ with open("tfidf_vectorizer.pkl", "rb") as f:
 st.set_page_config(page_title="Movie review sentiment app", page_icon="🍿")
 
 st.title("Movie review sentiment analyzer")
-st.title("Type a movei review below and check if its positive and negative!")
+st.title("Type a movie review below and check if its positive and negative!")
 
 #Text input
 user_input =  st.text_area("Enter your review:","")
